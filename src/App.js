@@ -1,11 +1,9 @@
 import React from 'react';
-// import Search from './search';
-import Todo from './todo';
+import { TODO, Search } from './pages'
 
 class App extends React.Component {
   render() {
-    // return <Search/>
-    return <Todo/>
+    return <Search/>
   }
 }
 export default App;
